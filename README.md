@@ -12,6 +12,9 @@ Grid Droid is a game with three difficulties: easy, medium, and hard. On the eas
 The board is a 4x5 grid of pieces. A piece may be a blank piece, or have up to 4 connections. In the code, I represent this as North, East, South, and West. You cannot rotate pieces.
 You can swap two pieces by dragging one into another. To complete a puzzle, one must connect all the pieces together with respect to color.
 
+![this is just the first one I could find](https://cs5-2.4pda.to/674395.png "Unsolved Puzzle")
+![this is just the first one I could find](https://cs5-2.4pda.to/674394.png "Solved Puzzle")
+
 ## Solving the Game
 I started with a list of Pieces and a State. The Pieces are a list of pieces that have not been placed yet, and the State is the current layout of the board. Now, this differs from the game on the phone, as you don't swap pieces between locations. This was done to make the puzzle easier to solve, and it doesnt change the solutions to the puzzle.
 
